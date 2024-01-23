@@ -1,0 +1,28 @@
+/* Remove bullets and margins/padding */
+.navbar ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Style the links */
+.navbar ul li a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar ul li a:hover {
+    background-color: #ddd;
+}
+
+/* Make the links sit in a row */
+.nav-links {
+    display: flex;
+}
