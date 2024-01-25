@@ -27,7 +27,20 @@
     display: flex;
 }
 
+@font-face {
+    font-family: 'Splatfont 2';
+    src: url('Splatfont2.ttf');
+}
+
+.myStyle {
+    font-family: 'MyWebFont';
+}
+
 body {
     font-size: 20px;
     background-color: #101010;
+}
+
+p {
+    color: white;
 }
