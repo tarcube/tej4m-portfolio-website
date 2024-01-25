@@ -26,3 +26,8 @@
 .nav-links {
     display: flex;
 }
+
+body {
+    font-size: 20px;
+    background-color: #101010;
+}
